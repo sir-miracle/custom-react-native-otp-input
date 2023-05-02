@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native'
-import Root from './src/root/Root';
+import OtpInput from './src/root/Root';
 
 
 const App = () => {
@@ -19,11 +19,11 @@ const App = () => {
       <Text style={{ marginBottom: 40 }}>
         Other Components
       </Text>
-      <Root
+      <OtpInput
         value={(val) => console.log(val)}
-        numberOfDigits={8}
+        numberOfDigits={4}
         inputShape={'box'}
-        // secureEntry
+        secureEntry
       />
     </SafeAreaView>
   );

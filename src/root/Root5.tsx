@@ -1,8 +1,8 @@
 import { StyleSheet, View, TextInput, Keyboard } from 'react-native'
 import React, { useState, FC, useEffect, useRef } from 'react'
-import { colors } from '../theme/colors'
-import { validateNumbers } from '../utils/utilityFunctions'
-import StyledRoot from '../components/StyledRoot'
+import { colors } from './theme/colors'
+import { validateNumbers } from './utils/utilityFunctions'
+import StyledRoot from './components/StyledRoot'
 
 
 interface Props {

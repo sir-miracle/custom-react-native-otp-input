@@ -5,13 +5,13 @@ interface Props {
     value: (val: string) => void,
     style?: object,
     itemStyle?: object,
-    numberOfDigits: number,
+    numberOfDigits?: number,
     inputShape?: 'underline' | 'box' | 'rectangle' | 'circle' | 'box_with_border_radius' | 'no_style',
     includeAlphabets?: boolean,
     secureEntry?: boolean
 }
 
-const Root: FC<Props> = ({
+const OtpInput: FC<Props> = ({
     value = () => { },
     style,
     itemStyle,
@@ -82,5 +82,5 @@ const Root: FC<Props> = ({
     );
 }
 
-export default Root;
+export default OtpInput;
 

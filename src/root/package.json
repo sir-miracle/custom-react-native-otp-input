@@ -1,27 +1,27 @@
 {
   "name": "custom-react-native-otp-input",
-  "version": "1.0.1",
-  "description": "A simple and light reusable react native component to accept otp input.",
+  "version": "1.0.7",
+  "description": "A simple and light reusable react native component to accept otp input. Fully customizable and written purely in typescript.",
   "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-native": "^0.71.2"
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
   },
-  "peerDependencies": {},
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sir-miracle/custom-react-native-otp-input"
   },
-  "homepage": "",
+  "homepage": "https://github.com/sir-miracle/custom-react-native-otp-input",
   "keywords": [
     "otp",
     "input",
     "password",
     "secure",
-    "entry"
+    "entry",
+    "one time password"
   ],
   "author": "Miracle Eugene <eugenemiracle500@gmail.com>",
   "license": "MIT"
