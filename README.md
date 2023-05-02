@@ -7,27 +7,22 @@ A simple and light reusable react native component to accept otp input. It is fu
 
 ```
 npm install custom-react-native-otp-input
-
 ```
 
 Or
 
 ```
 yarn add custom-react-native-otp-input
-
 ```
 
 ### After installation, navigate to the ios folder and run
 
 ```
 pod install
-
 ```
 
 ## Basice Usage
-
 ```
-
 import React,{useState} from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native'
 import OtpInput from './src/root/Root';
@@ -60,6 +55,12 @@ const styles = StyleSheet.create({
     width: '100%',
   }
 })
-
 ```
+
+API Reference
+
+| Property      | Type          |  Required | Description | Default |
+| ------------- | ------------- | ----------| ------------| ------- |
+| value         | callback      |yes        |returns the value as the user types|void|
+| numberOfDigits| number        |yes        |The number of input fields | 4 |
 
