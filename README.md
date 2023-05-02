@@ -63,4 +63,9 @@ API Reference
 | ------------- | ------------- | ----------| ------------| ------- |
 | value         | callback      |yes        |returns the value as the user types|void|
 | numberOfDigits| number        |yes        |The number of input fields | 4 |
+| inputShape    | string       |no        |A string to describe desired shape of the input field | circle |
+| secureEntry   | boolean      |no        |Decide whether to show input or hide | false |
+| includeAlphabets| boolean    |no         |Decide wether to accept letters as input | false |
+| style | object |no | Add custom style to the component rapper | {} |
+| itemStyle | object | no | Add cutom style the input rapper | {} |
 
