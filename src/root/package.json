@@ -1,6 +1,6 @@
 {
   "name": "custom-react-native-otp-input",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "A simple and light reusable react native component to accept otp input. Fully customizable and written purely in typescript.",
   "main": "index.tsx",
   "scripts": {
