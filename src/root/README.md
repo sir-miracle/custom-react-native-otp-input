@@ -25,7 +25,7 @@ pod install
 ```
 import React,{useState} from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native'
-import OtpInput from './src/root/Root';
+import OtpInput from 'custom-react-native-otp-input'
 
 const App = () => {
   const [otp, setOtp] = useState<string>('')
